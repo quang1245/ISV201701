@@ -1,142 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="index.css" />
-     <!-- unicons -->
-    <link
-    rel="stylesheet"
-    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-  />
- <!-- ScrollReveal -->
- <script src="https://unpkg.com/scrollreveal"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travels</title>
+    <link rel="stylesheet" type="text/css" href="/index/index.css">
+   
+</head>
+<body>
+    <div class="banner">
 
- <!-- swiper js -->
- <link
-   rel="stylesheet"
-   href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
- />
- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Header -->
 
-     <title>Travel</title>
-    </head>
-  <body>
-     <!-- Showcase -->
-     <main class="main" id="home">
-      <!-- Header -->
-      <header class="header">
-        <!-- navbar -->
-        <nav class="navbar">
-          <ul class="navlists">
-            <li class="navlist"><a href="#home">Home</a></li>
-            <li class="navlist"><a href="#About">About</a></li>
-            <li class="navlist"><a href="#Hotel&Restaurants">Hotel & Restaurants</a></li>
-            <li class="navlist"><a href="../Destination.html">Destinations</a></li>
-            <li class="navlist"><a href="../activityredirect.html">Activities</a></li>
-            <li class="navlist"><a href="#contact">Contact</a></li>
-          </ul>
+    <div class="content" id="home"> 
+        <nav>
+            
+            <ul class="navbar">
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Destination">Destination</a>
+                    <a href="#Activities">Activities</a>
+                    <a href="#Hotel&Restaurants">Hotel&Restaurants</a> 
+                    <a href="/contact.html">Contact Us</a>
+                </li>
+            </ul>
         </nav>
+ 
+        <div class="title">
+            <h1>TRAVELS</h1>
+            <p>Plan your trip with us and travel around the world!</p>
+            <a href="Register.html" class="button">Register Now!</a>
+        </div>
+        </div>
+    </div>
 
-      </header>
+<!-- Newsletter -->
 
-      <!-- showcase-content -->
-      <div class="showcase-content">
-        <h1>Discover the most engaging places</h1>
-        <a href="https://earth.google.com/web/" target="_blank" class="showcase-button">
-          <img src="https://media.istockphoto.com/id/469235498/vector/illustration-of-flat-design-travel-composition-with-famous-world-landmarks.jpg?s=612x612&w=0&k=20&c=laJxuIadz2BJHCLZB1lMyC29fiKAHA6sd3Xamk1hTUc=" 
-        width="80"
-        height="80"
-         alt="" /> Discover on 3D globe</a
-         >
-      </div>
+<section class="newsletter">
+    <div class="newstext">
+        <h2>Newsletter</h2>
+        <p>Subscribe to get offers and latest<br>updates every week!</p>
+    </div>
 
-      <!-- showcase-search -->
-      <div class="showcase-search">
-        <div class="filters">
-          <div class="filter">
-            <div class="search-text">
-              <h4>
-              <button>Home</button>
-              </h4>
+    <div class="send">
+        <form action="">
+            <input type="email" name="emailid" placeholder="E-mail" required>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <div class="foot">
+        <div class="footer-content">
+            
+            <div class="footlinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./register.html">Register</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
             </div>
-          </div>
-          <div class="filter">
-            <div class="search-text">
-              <h4>
-               <button>  About</button> 
-            </h4>
+
+            <div class="footlinks">
+                <h4>Connect</h4>
+                <div class="social">
+                    <a href="https://github.com/quang1245/ISV201701" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
             </div>
-          </div>
-          <div class="filter">
-            <div class="search-text">
-              <h4>
-                <button onclick="location.href='../Hotel&Restaurants.html';">Hotel&Restaurants</button> 
-              </h4>
-            </div>
-          </div>
+            
+        </div>
+    </div>
 
-        <div class="filter">
-          <div class="search-text">
-            <h4>
-           <button onclick="location.href='../Destination.html';">Destinations</button> 
-          </h4>
-          </div>
-        </div>
-        <div class="filter">
-        <div class="search-text">
-          <h4>
-            <button onclick="location.href='../activityredirect.html';">Activities</button> 
-          </h4>
-        </div>
-      </div>
-        </div>
-        <div class="search-button-icon">
-        </div>
-      </div>
-    </main>
+    <div class="end">
+        <p>Copyright © 2024 Travels By Team 1.</p>
+    </div>
+</section>
 
 
-   <img src=" https://bcp.cdnchinhphu.vn/334894974524682240/2023/2/7/hn-1675770617088584662218.jpg">
-   <img src=" https://cdn3.ivivu.com/2023/10/du-lich-hoi-an-ivivu-img1.jpg">
-    <!-- footer -->
-    <footer>
-      <div class="container">
-        <div class="footer-sections">
-          <div class="footer-section">
-            <img src="/Imgs/Logo/logoblack.svg" alt="">
-            <p>We always make our customers happy by providing as many choises as possible</p>
-          </div> 
-          <div class="footer-section">
-            <h3>About</h3>
-            <ul>
-              <li><a href="">About Us</a></li>
-              <li><a href="">News</a></li>
-              <li><a href="">Menu</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>Support</h3>
-            <ul>
-              <li><a href="">Support Center</a></li>
-              <li><a href="https://github.com/quang1245/ISV201701">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>Subscribe on our destination review <br> newsletters</h3>
-            <form>
-              <div class="form-section">
-                <img src="...." alt="">
-                <label for="email">  Your Email
-                  <input type="email" id="email" name="email" placeholder="exp - abc@gmail.com ">
-                </label>
-              </div>
-              <button type="submit"><img src="..." alt=""></button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+ 
+</body>
 </html>
