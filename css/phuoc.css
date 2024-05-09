@@ -1,0 +1,34 @@
+.ProductDetails {
+  display: block;
+}
+.Product img {
+  width: 350px;
+  height: 240px;
+  border-radius: 35px;
+  box-shadow: 5px 5px 10px #aaa;
+}
+.ProductName {
+  font-weight: bolder;
+}
+.ProductPrice {
+  font-size: italic;
+}
+.ProductPrice::before {
+  content: " - ";
+}
+.Product {
+  text-align: center;
+  width: 350px;
+  margin: 0px 20px;
+  float: left;
+  cursor: pointer;
+  color: rgb(218, 47, 47);
+  font-size: 20pt;
+}
+.Product:hover .ProductDetails {
+  display: inline;
+}
+a {
+  display: inline-block;
+  width: 33%;
+}
