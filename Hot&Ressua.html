@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotels and Restaurants</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url("img/wu.gif");
+      }
+
+      .container {
+        min-height: 100vh; /* Đảm bảo container ít nhất bằng với chiều cao trình duyệt */
+        position: relative; /* Đặt context cho vị trí tuyệt đối của footer */
+        padding-bottom: 50px; /* Đủ không gian cho footer */
+      }
+
+      .Product {
+        text-align: center;
+        width: 350px;
+        margin: 20px;
+        float: left;
+        cursor: pointer;
+        color: wheat;
+        font-size: 20pt;
+      }
+
+      .Product img {
+        width: 300px;
+        height: 200px;
+        border-radius: 35px;
+        box-shadow: 5px 5px 10px #aaa;
+      }
+
+      .ProductDetails {
+        display: block;
+      }
+
+      .ProductName {
+        font-weight: bolder;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 0px 0px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Product">
+        <a href="khachsan.html"
+          ><img src="img/Hai Phong.jpg" alt="Hải Phòng"
+        /></a>
+        <div class="ProductDetails">
+          <span class="ProductName">Hải Phòng</span>
+        </div>
+      </div>
+      <div class="Product">
+        <a href="KsHCM.html"><img src="img/HCM .jpg" alt="Hồ Chí Minh" /></a>
+        <div class="ProductDetails">
+          <span class="ProductName">Hồ Chí Minh</span>
+        </div>
+      </div>
+      <div class="Product">
+        <a href="ksHA.html"><img src="img/HoiAn.jpg" alt="Hội An" /></a>
+        <div class="ProductDetails">
+          <span class="ProductName">Phố cổ Hội An</span>
+        </div>
+      </div>
+      <footer>
+        <p>© 2024 Bản quyền thuộc về Group 4</p>
+        <p>ID:23070514 | Họ và tên: Pham Huu Phuoc</p>
+      </footer>
+    </div>
+  </body>
+</html>
