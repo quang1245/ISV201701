@@ -1,0 +1,92 @@
+body {
+  background-image: url('https://www.desktopbackground.org/download/o/2015/08/07/991733_travel-beautiful-city-best-world-tour-desktop-background-wallpaper_1920x1080_h.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+
+}
+
+#activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.activity {
+  width: 45%;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.activity:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.activity img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.activity h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.activity p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.unordered {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.unordered li {
+  padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .activity {
+    width: 95%;
+  }
+}
+.return-button {
+  top: 20px;
+  left: 20px;
+  background-color: #f1f6f1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.return-button:hover {
+  background-color: #45a049;
+}
